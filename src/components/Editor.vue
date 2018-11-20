@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex';
+import { mapActions } from 'vuex'
 export default {
-  methods:{
+  methods: {
     ...mapActions([
       'update'
     ])
@@ -23,7 +23,7 @@ export default {
   props: [
     'entity'
   ]
-};
+}
 </script>
 
 <style scoped>

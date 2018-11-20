@@ -5,15 +5,15 @@
 </template>
 
 <script>
-import Notes from "./components/Notes"
-import 'semantic-ui-css/semantic.min.css';
+import Notes from './components/Notes'
+import 'semantic-ui-css/semantic.min.css'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Notes
   }
-};
+}
 </script>
 
 <style>

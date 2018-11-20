@@ -16,6 +16,8 @@ export const update = ({
   commit('updateEntity', entity)
 }
 
-export const destroy = ({ commit }, entity) => {
+export const destroy = ({
+  commit
+}, entity) => {
   commit('destroyEntity', entity)
 }

@@ -40,9 +40,7 @@ export default {
 
     loadCollection('notes')
       .then((collection) => {
-        collection.remove({
-          entity
-        })
+        collection.remove(entity)
         db.saveDatabase()
       })
   }
